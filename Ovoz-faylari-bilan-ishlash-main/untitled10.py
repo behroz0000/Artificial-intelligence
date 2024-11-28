@@ -33,7 +33,7 @@ def generate_spectrogram(wav_file):
     plt.show()
 
 # Example usage
-wav_file_path = '/content/Jumanazarov.wav'  # Replace with your WAV file path
+wav_file_path = '/content/Islomov.wav'  # Replace with your WAV file path
 generate_spectrogram(wav_file_path)
 
 import numpy as np
@@ -62,7 +62,7 @@ def generate_spectrogram(wav_file):
     plt.show()
 
 # Example usage
-wav_file_path = '/content/Nurmuhammad.wav'  # Replace with your WAV file path
+wav_file_path = '/content/Ozodbek.wav'  # Replace with your WAV file path
 generate_spectrogram(wav_file_path)
 
 import numpy as np
@@ -91,7 +91,7 @@ def generate_spectrogram(wav_file):
     plt.show()
 
 # Example usage
-wav_file_path = '/content/Nurmuhammad.wav'  # Replace with your WAV file path
+wav_file_path = '/content/Ozodbek.wav'  # Replace with your WAV file path
 generate_spectrogram(wav_file_path)
 
 !pip install gtts
@@ -100,7 +100,7 @@ from gtts import gTTS
 import os
 
 # Matnni belgilash
-text = "Nurmuhammad Jumanazarov 631_23 guruh"
+text = "Islomov Ozodbek 670-23"
 
 # Ovoz yaratish (gTTS - Google Text-to-Speech)
 language = 'en'  # Changed to English ('en')
